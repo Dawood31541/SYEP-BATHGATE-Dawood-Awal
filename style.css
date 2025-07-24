@@ -1,0 +1,92 @@
+overflow-x: hidden;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 115, 5);
+    color: #0804ff;
+    text-align: center;
+    line-height: 3;
+}
+
+.section{
+    padding: 40px 20px;
+}
+
+.hero{
+    padding: 50px 20px;
+}
+
+.hero h1{
+     font-size: 32px;
+}
+
+.grid {
+    display:grid;
+    gap: 10px;
+}
+
+.grid div{
+    background-color: rgb(15, 250, 66)
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.intro {
+    height: 100vh;
+    background: url(https://bing.com/th/id/BCO.1e01565e-3453-4f3a-9b31-c5cb8486f8c3.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: ease-in;
+}
+
+.intro-content{
+        display: flex;
+        align-items: center;
+        background-color: rgb(122, 255, 244) ;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: #ff0426;
+ }
+
+.profile-pic {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 30px;
+}
+
+.text-box h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+}
+
+.text-box p {
+        font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(20%);
+}
+    
+to {
+    opacity: 1;
+    transform: translate(0);
+    }
+}
+
+@media screen  (max-width: 768px) {
+    .hero h1{font: size 40px;}
+}
+    .hero-text{
+        display:flex;
+        flex-direction: column;
+    }
+/body
